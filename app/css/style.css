@@ -25,6 +25,7 @@ html, body {
     height: 100%;
     line-height: 1.4;
     background-color: var(--dark1);
+    background-image: linear-gradient(var(--dark1), #1e4020);
 }
 
 *, *::before, *::after {
