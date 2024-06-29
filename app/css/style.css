@@ -10,6 +10,7 @@
     --dark8: #333333;
     --dark9: #353535;
     --dark10: #383838;
+    --dark11: #3a3a3a;
 }
 
 ::selection {
@@ -24,15 +25,14 @@ html, body {
     width: 100%;
     height: 100%;
     line-height: 1.4;
-    background-color: var(--dark1);
-    /*background-image: linear-gradient(var(--dark1), #1e4020);*/
+    background-color: var(--dark6);
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
     margin: 0 auto;
     padding: 0;
-    color: white;
+    color: #f3f3f3;
 }
 
 ::-webkit-scrollbar {
@@ -58,7 +58,7 @@ html, body {
 }
 
 nav {
-    background-color: var(--dark4);
+    background-color: var(--dark11);
     width: 100%;
     height: 60px;
     display: flex;
@@ -96,7 +96,7 @@ header h1 {
     padding-top: 15px;
     padding-bottom: 15px;
     color: var(--primary);
-    background-color: var(--dark2);
+    background-color: var(--dark11);
     position: relative;
 }
 
@@ -163,7 +163,7 @@ hr {
     margin-bottom: 45px;
     clear: both;
     text-align: center;
-    background-color: var(--dark2);
+    background-color: var(--dark3);
 }
 
 #social {
@@ -189,13 +189,14 @@ hr {
 }
 
 #text {
-    background-color: var(--dark2);
+    background-color: var(--dark3);
     width: 55%;
     text-align: left;
     font-weight: 200;
     margin: 0 auto;
     margin-top: 65px;
     margin-bottom: 115px;
+    border-radius: 25px;
 }
 
 section {
@@ -221,7 +222,7 @@ footer {
     clear: both;
     text-align: center;
     color: #b8b8b8;
-    background-color: var(--dark4);
+    background-color: var(--dark3);
     font-weight: 200;
     font-size: 0.9rem;
 }
