@@ -122,8 +122,8 @@ header h1 span {
     color: var(--primary);
     padding-left: 1em;
     padding-right: 1em;
-    border-left: var(--primary) solid 7px;
-    border-right: var(--primary) solid 7px;
+    /* border-left: var(--primary) solid 7px; */
+    /* border-right: var(--primary) solid 7px; */
     border-radius: 0.3em;
 }
 
@@ -217,7 +217,7 @@ hr {
     margin: 0 auto;
     margin-top: 65px;
     margin-bottom: 115px;
-    border-radius: 25px;
+    border-radius: 0px;
     box-shadow: var(--shadow);
 }
 
